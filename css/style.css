@@ -1,0 +1,181 @@
+@font-face{
+	src:url(fonts/Lato-LightItalic.ttf);
+	font-family:lato;
+}
+@font-face{
+	src:url(fonts/Lato-Bold.ttf);
+	font-family:lato-bold;
+}
+@font-face{
+	src:url(fonts/Lato-Black.ttf);
+	font-family:lato-black;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+
+}
+
+h5{
+	color:black;
+}
+
+
+.navbar-light{
+    border-bottom:2px solid #bfbfbf;
+	
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #d03536;
+}
+
+
+.fa.fa-car,
+.fa.fa-heart,
+.fa.fa-user,
+.fa.fa-shopping-bag{
+    color: #bfbfbf;
+    
+}
+.fa.fa-car:hover,
+.fa.fa-heart:hover,
+.fa.fa-user:hover,
+.fa.fa-shopping-bag:hover{
+color: #d03536;
+}
+.delivery-str{
+	font-size:10px;
+	color:#bfbfbf;
+	
+}
+
+.delivery-em{
+	font-size:10px;
+	color: black;
+	text-align:center;
+	
+	
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 15%;
+   
+
+
+}
+.header-bg img{
+   
+    width: 100%;
+    display: block;
+    background-size: cover;
+    position: relative;
+}
+.caption h1 {
+    font-family: lato-black;
+	color:#21314e;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+
+}
+
+.caption h3 {
+    font-family: lato;
+    font-style: italic;
+    font-size: 24px;
+    text-transform: lowercase;
+    color: #d03536;
+    padding-bottom: 1.6rem;
+}
+      /* Timer */
+#timer {
+    font-family: lato-black;
+    font-size: 67px;
+    font-weight: 800;
+    color: #d03536;
+    margin-top: -40px;
+}
+    /* buttons */
+.btn {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+	font-family:lato-bold;
+    width: 200px;
+    height: 45px;
+    background-color: #21314e;
+    max-width: 100%;
+
+    color: #fff !important;
+
+
+}
+
+.btn:hover {
+    background-color: #d03536 !important;
+}
+
+
+
+/*---Media Queries--*/
+@media(max-width: 767px) {
+    .caption {
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 10%;
+        z-index: 1;
+        color: #d03536;
+        text-transform: uppercase;
+    }
+    
+    .caption h1 {
+        font-size: 1.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    
+    .caption h3 {
+        font-size: 1rem;
+        padding-bottom: 1.2rem;
+    }
+    #timer{
+            font-size: 2rem;
+            padding-top: 1.2rem;
+    }
+    .btn{
+        max-width: 25%;
+    }
+    .header-bg img{
+   
+    height: 150px;      
+        
+    }
+    li{
+        float: right;
+    }
+    
+}
+
+
+
+
